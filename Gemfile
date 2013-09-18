@@ -10,7 +10,7 @@ end
 
 group :development, :test do
 gem 'sqlite3'
-  gem 'bootstrap-sass', '~> 2.3.2.1'
+
 end
 
 
@@ -25,6 +25,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+    gem 'bootstrap-sass', '~> 2.3.2.1'
 end
 
 gem 'jquery-rails'
